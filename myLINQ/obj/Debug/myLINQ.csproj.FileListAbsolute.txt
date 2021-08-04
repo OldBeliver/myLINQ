@@ -1,0 +1,6 @@
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\bin\Debug\myLINQ.exe
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\bin\Debug\myLINQ.pdb
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\obj\Debug\myLINQ.csprojAssemblyReference.cache
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\obj\Debug\myLINQ.csproj.CoreCompileInputs.cache
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\obj\Debug\myLINQ.exe
+C:\Users\simlab\RiderProjects\myLINQ\myLINQ\obj\Debug\myLINQ.pdb
