@@ -101,12 +101,20 @@ namespace myLINQ
 
                 Console.WriteLine($"поиск осуществлен с учетом разброса +- {heightDeviation} кг, +- {weightDeviation} см");
                 Console.WriteLine($"----------------------------------");
+                /*
                 var extracted = from BadGuy badGuy in _badGuys
                     where (badGuy.Height > height-heightDeviation && badGuy.Height < height+heightDeviation)
                     where (badGuy.Weight > weight-weightDeviation && badGuy.Weight < weight+weightDeviation)
                     where badGuy.Race == race
                     where badGuy.Prison == Prison.Free
                     select badGuy;
+                */
+
+                var extracted = _badGuys.Where(badGuy =>
+                    (badGuy.Height > height-heightDeviation && badGuy.Height < height+heightDeviation)
+                    && (badGuy.Weight > weight-weightDeviation && badGuy.Weight < weight+weightDeviation) 
+                    && (badGuy.Race == race) 
+                    && (badGuy.Prison == Prison.Free));
 
                 foreach (var guy in extracted)
                 {
